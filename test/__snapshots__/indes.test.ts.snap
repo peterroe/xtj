@@ -9,54 +9,21 @@ exports[`test > should workd 1`] = `
     {
       "BODY": [
         {
-          "RSS": [
+          "MYROOT": [
             {
-              "CHANNEL": [
+              "TEST": "Success",
+            },
+            {
+              "TEST2": [
                 {
-                  "TITLE": "少数派",
+                  "ITEM": "val1",
                 },
                 {
-                  "LINK": "",
+                  "ITEM": "val2",
                 },
               ],
             },
-            {
-              "DESCRIPTION": "少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质",
-            },
-            {
-              "LANGUAGE": "zh-CN",
-            },
-            {
-              "MANAGINGEDITOR": "contact@sspai.com (少数派)",
-            },
-            {
-              "PUBDATE": "Sat, 26 Mar 2022 11:31:18 +0800",
-            },
-            {
-              "TITLE": "你的输入法，原来也可以当作效率和知识管理工具？",
-            },
-            {
-              "LINK": "",
-            },
           ],
-        },
-        {
-          "DESCRIPTION": "其实，不管是输入字词还是输入符号，核心要义就是通过自定义的方式，将我们常用
-    、惯用的各种内容同输入法预设的排布分离开来， 而这也就是之前一直所说的「排除干扰、流畅输入」
-    。&lt;a href=&#34;https://sspai.com/post/71703&#34; target=&#34;_blank&#34;&gt;
-    查看全文&lt;/a&gt;",
-        },
-        {
-          "AUTHOR": "克莱德",
-        },
-        {
-          "PUBDATE": "Thu, 24 Mar 2022 14:30:00 +0800",
-        },
-        {
-          "ATOM": "",
-        },
-        {
-          "ATOM": "",
         },
       ],
     },

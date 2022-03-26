@@ -1,39 +1,55 @@
-## ts-starter
+## XTJ
 
-A typescript template
+Xml to Javascript object
 
-## Try it now!
-
-[Create repo from this template on Github](https://github.com/peterroe/ts-starter/generate)
-
-Or:
-
-```bash
-$ npx degit peterroe/ts-starter my-ts
-$ cd my-ts
-$ pnpm i    # npm install -g pnpm
-```
-
-## Development
+## Install
 
 ```shell
-$ pnpm start
+$ npm install xtj
 ```
 
-## Test
+## Features
 
-```bash
-$ pnpm test
-```
+* Typescript support
+* Esm/Umd support 
 
-## Build
+## Usage
 
-```shell
-$ pnpm build
-```
+```ts
+import XmlToJs from 'xtj'
 
-## Publish
+const str = `<MyRoot><test>Success</test><test2><item>val1</item><item>val2</item></test2></MyRoot>`
 
-```shell
-$ pnpm release
+XmlTojs(str)
+
+/* =>
+{
+  "HTML": [
+    {
+      "HEAD": "",
+    },
+    {
+      "BODY": [
+        {
+          "MYROOT": [
+            {
+              "TEST": "Success",
+            },
+            {
+              "TEST2": [
+                {
+                  "ITEM": "val1",
+                },
+                {
+                  "ITEM": "val2",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+}
+*/
 ```
