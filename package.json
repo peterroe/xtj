@@ -1,6 +1,6 @@
 {
   "name": "xtj",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "packageManager": "pnpm@6.32.3",
   "description": "typescript-template",
   "keywords": ["typescript", "template"],
