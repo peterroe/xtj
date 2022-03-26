@@ -1,9 +1,12 @@
 {
   "name": "xtj",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "packageManager": "pnpm@6.32.3",
   "description": "typescript-template",
-  "keywords": ["typescript", "template"],
+  "keywords": [
+    "typescript",
+    "template"
+  ],
   "license": "MIT",
   "author": "peterroe",
   "main": "./dist/index.cjs",
@@ -28,6 +31,7 @@
     "@antfu/eslint-config": "^0.18.9",
     "eslint": "^8.11.0",
     "esno": "^0.14.1",
+    "happy-dom": "^2.50.0",
     "np": "^7.6.1",
     "typescript": "^4.6.2",
     "unbuild": "^0.7.0",
