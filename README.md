@@ -1,17 +1,22 @@
 ## XTJ
 
-Xml to Javascript object
+A tiny unit to convert xml to javascript object.
+
+<a href="http://img.badgesize.io/https://unpkg.com/xtj?compression=gzip&label=gzip%20size:%20JS">
+    <img src="http://img.badgesize.io/https://unpkg.com/xtj?compression=gzip&label=gzip%20size:%20JS">
+</a>
+
+## Features
+
+* `Typescript` support.
+* `ESM` and `UMD` friendly.
+* Tiny size.
 
 ## Install
 
 ```shell
 $ npm install xtj
 ```
-
-## Features
-
-* Typescript support
-* Esm/Umd support 
 
 ## Usage
 
