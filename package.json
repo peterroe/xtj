@@ -29,13 +29,13 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.19.4",
-    "eslint": "^8.11.0",
-    "esno": "^0.14.1",
-    "happy-dom": "^2.50.0",
-    "np": "^7.6.1",
-    "typescript": "^4.6.2",
-    "unbuild": "^0.7.0",
-    "vite": "^2.8.6",
-    "vitest": "^0.7.6"
+    "eslint": "8.13.0",
+    "esno": "0.14.1",
+    "happy-dom": "2.55.0",
+    "np": "7.6.1",
+    "typescript": "4.6.3",
+    "unbuild": "0.7.4",
+    "vite": "2.9.4",
+    "vitest": "0.7.13"
   }
 }
